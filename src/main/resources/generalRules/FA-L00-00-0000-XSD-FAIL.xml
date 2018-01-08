@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:FLUXFAReportMessage xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:20" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:20" xsi:schemaLocation="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:3 xsd/FLUXFAReportMessage_3p1/FLUXFAReportMessage_3p1.xsd" xmlns:rsm="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <rsm:FLUXReportDocument>
+        <ram:ID schemeID="UUID">{{guid}}</ram:ID>
+        <ram:CreationDateTime>
+            <udt:DateTime>2017-06-10T23:59:00Z</udt:DateTime>
+        </ram:CreationDateTime>
+        <ram:PurposeCode listID="FLUX_GP_PURPOSE">9</ram:PurposeCode>
+
+    </rsm:FLUXReportDocument>
+</rsm:FLUXFAReportMessage>

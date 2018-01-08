@@ -1,0 +1,8 @@
+TEST_ID,PASS,RULE_ID,E/W,LEVEL,TemplateFile,Param1,Param2,Param3,Param4,Param5,Param6,Param7,Param8,Param9,Param10,Param11,Param12,Param13,Param14,Param15
+10,TRUE,FA-L00-00-0000,E,L00,generalRules/FA-L00-00-0000-PASS.xml,,,,,,,,,,,,,,,
+20,FALSE,FA-L00-00-0000,E,L00,generalRules/FA-L00-00-0000-XSD-FAIL.xml,,,,,,,,,,,,,,,
+30,FALSE,FA-L00-00-0000,E,L00,generalRules/FA-L00-00-0000-XML-FAIL.xml,,,,,,,,,,,,,,,
+40,TRUE,FA-L00-00-0001,E,L00,FLUXReportMessage/Template1.xml,UUID,,,,,,,,,,,,,,
+50,TRUE,FA-L00-00-0001,E,L00,FLUXReportMessage/FA-L00-00-0001-FAIL.xml,,,,,,,,,,,,,,,
+60,TRUE,FA-L01-00-0002,E,L01,FLUXReportMessage/Template1.xml,UUID,,,,,,,,,,,,,,
+70,FALSE,FA-L01-00-0002,E,L01,FLUXReportMessage/Template1.xml,TST1,,,,,,,,,,,,,,

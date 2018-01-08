@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:FLUXFAReportMessage xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:20" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:20" xsi:schemaLocation="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:3 xsd/FLUXFAReportMessage_3p1/FLUXFAReportMessage_3p1.xsd" xmlns:rsm="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <rsm:FLUXReportDocument>
+        <ram:ID schemeID="UUID">{{guid}}</ram:ID>
+        <ram:CreationDateTime>
+            <udt:DateTime>2017-06-10T23:59:00Z</udt:DateTime>
+        </ram:CreationDateTime>
+        <ram:PurposeCode listID="FLUX_GP_PURPOSE">9</ram:PurposeCode>
+        <ram:OwnerFLUXParty>
+            <ram:ID schemeID="FLUX_GP_PARTY">CYP</ram:ID>
+        </ram:OwnerFLUXParty>
+    </rsm:FLUXReportDocument>
+    <rsm:FAReportDocument>
+        <ram:TypeCode listID="FLUX_FA_REPORT_TYPE">DECLARATION</ram:TypeCode>
+        <ram:AcceptanceDateTime>
+            <udt:DateTime>2017-06-10T23:57:00Z</udt:DateTime>
+        </ram:AcceptanceDateTime>
+        <ram:RelatedFLUXReportDocument>
+            <ram:ID schemeID="UUID">6ECD69AE-BACA-4768-8C19-AB7A22EBDE68</ram:ID>
+            <ram:CreationDateTime>
+                <udt:DateTime>2017-06-10T23:58:00Z</udt:DateTime>
+            </ram:CreationDateTime>
+            <ram:PurposeCode listID="FLUX_GP_PURPOSE">9</ram:PurposeCode>
+            <ram:OwnerFLUXParty>
+                <ram:ID schemeID="FLUX_GP_PARTY">CYP</ram:ID>
+            </ram:OwnerFLUXParty>
+        </ram:RelatedFLUXReportDocument>
+        <ram:SpecifiedFishingActivity>
+            <ram:TypeCode listID="FLUX_FA_TYPE">FISHING_OPERATION</ram:TypeCode>
+            <ram:OccurrenceDateTime>
+                <udt:DateTime>2017-06-10T12:00:00Z</udt:DateTime>
+            </ram:OccurrenceDateTime>
+            <ram:VesselRelatedActivityCode listID="VESSEL_ACTIVITY">STE</ram:VesselRelatedActivityCode>
+            <ram:OperationsQuantity unitCode="C62">0</ram:OperationsQuantity>
+            <ram:RelatedFLUXLocation>
+                <ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+                <ram:ID schemeID="MANAGEMENT_AREA">NEAFC_RA</ram:ID>
+            </ram:RelatedFLUXLocation>
+            <ram:RelatedFLUXLocation>
+                <ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+                <ram:ID schemeID="FAO_AREA">27.8.e.1</ram:ID>
+                <ram:RegionalFisheriesManagementOrganizationCode listID="RFMO">NEAFC</ram:RegionalFisheriesManagementOrganizationCode>
+            </ram:RelatedFLUXLocation>
+            <ram:SpecifiedFishingTrip>
+                <ram:ID schemeID="EU_TRIP_ID">CYP-TRP-20170608000000000010</ram:ID>
+            </ram:SpecifiedFishingTrip>
+        </ram:SpecifiedFishingActivity>
+        <ram:SpecifiedVesselTransportMeans>
+            <ram:ID schemeID="CFR">CYP123456789</ram:ID>
+            <ram:ID schemeID="IRCS">IRCS6</ram:ID>
+            <ram:ID schemeID="EXT_MARK">XR006</ram:ID>
+            <ram:Name>Golf</ram:Name>
+            <ram:RegistrationVesselCountry>
+                <ram:ID schemeID="TERRITORY">CYP</ram:ID>
+            </ram:RegistrationVesselCountry>
+            <ram:SpecifiedContactParty>
+                <ram:RoleCode listID="FLUX_CONTACT_ROLE">MASTER</ram:RoleCode>
+                <ram:SpecifiedStructuredAddress>
+                    <ram:StreetName>Street Q</ram:StreetName>
+                    <ram:CityName>City R</ram:CityName>
+                    <ram:CountryID schemeID="TERRITORY">CYP</ram:CountryID>
+                </ram:SpecifiedStructuredAddress>
+                <ram:SpecifiedContactPerson>
+                    <ram:GivenName>Jamie</ram:GivenName>
+                    <ram:FamilyName>G</ram:FamilyName>
+                    <ram:Alias>Master G</ram:Alias>
+                </ram:SpecifiedContactPerson>
+            </ram:SpecifiedContactParty>
+        </ram:SpecifiedVesselTransportMeans>
+    </rsm:FAReportDocument>
+</rsm:FLUXFAReportMessage>
